@@ -10,7 +10,7 @@ const config = {
   storageBucket: "nt-comp.appspot.com",
   messagingSenderId: "947229331775",
   appId: "1:947229331775:web:17b79accaf5fe6d942c38a",
-  measurementId: "G-KYH6F5KBRF",
+  measurementId: "G-KYH6F5KBRF"
 };
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
@@ -27,7 +27,7 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
         displayName,
         email,
         createdAt,
-        ...additionalData,
+        ...additionalData
       });
     } catch (error) {
       console.log("error creatin user", error.message);

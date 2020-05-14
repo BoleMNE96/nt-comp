@@ -15,7 +15,7 @@ class SignUp extends React.Component {
       displayName: "",
       email: "",
       password: "",
-      confirmPassword: "",
+      confirmPassword: ""
     };
   }
 
@@ -40,7 +40,7 @@ class SignUp extends React.Component {
         displayName: "",
         email: "",
         password: "",
-        confirmPassword: "",
+        confirmPassword: ""
       });
     } catch (error) {
       console.log(error);

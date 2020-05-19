@@ -57,15 +57,15 @@ class SignUp extends React.Component {
     const { displayName, email, password, confirmPassword } = this.state;
     return (
       <div className="sign-up">
-        <h2 className="title">I do not have an account</h2>
-        <span>Sign up with your email and password</span>
+        <h2 className="title">Ukoliko nemate nalog</h2>
+        <span>Registrujte se popunjavajući sledeće podatke</span>
         <form className="sign-up-from" onSubmit={this.handleSubmit}>
           <FormInput
             type="text"
             name="displayName"
             value={displayName}
             onChange={this.handleChange}
-            label="Display Name"
+            label="Korisničko ime"
             required
           />
           <FormInput
@@ -73,7 +73,7 @@ class SignUp extends React.Component {
             name="email"
             value={email}
             onChange={this.handleChange}
-            label="Email"
+            label="Email adresa"
             required
           />
           <FormInput
@@ -81,7 +81,7 @@ class SignUp extends React.Component {
             name="password"
             value={password}
             onChange={this.handleChange}
-            label="Password"
+            label="Lozinka"
             required
           />
           <FormInput
@@ -89,10 +89,10 @@ class SignUp extends React.Component {
             name="confirmPassword"
             value={confirmPassword}
             onChange={this.handleChange}
-            label="Confirm Password"
+            label="Potvrdi lozinku"
             required
           />
-          <CustomButton type="submit">SIGN UP</CustomButton>
+          <CustomButton type="submit">Registruj se</CustomButton>
         </form>
       </div>
     );

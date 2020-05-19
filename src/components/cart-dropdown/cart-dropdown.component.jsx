@@ -27,7 +27,7 @@ const CartDropdown = ({ cartItems, history, dispatch }) => (
         dispatch(toggleCartHidden());
       }}
     >
-      GO TO CHECKOUT
+      ZAVRŠI KUPOVINU
     </CustomButton>
   </div>
 );

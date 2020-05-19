@@ -1,5 +1,5 @@
 .header {
-  height: 70px;
+  height: 76px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -7,8 +7,12 @@
 
   .logo-container {
     height: 100%;
-    width: 70px;
-    padding: 25px;
+    width: 105px;
+
+    .logo-img {
+      height: 100%;
+      width: 100%;
+    }
   }
 
   .options {

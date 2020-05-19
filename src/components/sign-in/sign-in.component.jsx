@@ -38,8 +38,8 @@ class SignIn extends React.Component {
   render() {
     return (
       <div className="sign-in">
-        <h2>I already have an account</h2>
-        <span>Sign in with your email and password.</span>
+        <h2>Ukoliko već imate nalog</h2>
+        <span>Prijavite se sa vašom email adresom i lozinkom</span>
 
         <form onSubmit={this.handleSubmit}>
           <FormInput
@@ -47,7 +47,7 @@ class SignIn extends React.Component {
             type="email"
             handleChange={this.handleChange}
             value={this.state.email}
-            label="email"
+            label="Email adresa"
             required
           />
           <FormInput
@@ -55,14 +55,14 @@ class SignIn extends React.Component {
             type="password"
             value={this.state.password}
             handleChange={this.handleChange}
-            label="password"
+            label="Lozinka"
             required
           />
 
           <div className="buttons">
-            <CustomButton type="submit">Sign In</CustomButton>
+            <CustomButton type="submit">Prijavi se</CustomButton>
             <CustomButton onClick={sigInWithGoogle} isGoogleSignIn>
-              Sign In With Google
+              Prijavi se sa Google
             </CustomButton>
           </div>
         </form>

@@ -15,26 +15,26 @@ const CheckoutPage = ({ cartItems, total }) => (
   <div className="checkout-page">
     <div className="checkout-header">
       <div className="header-block">
-        <span>Product</span>
+        <span>Proizvod</span>
       </div>
       <div className="header-block">
-        <span>Description</span>
+        <span>Opis</span>
       </div>
       <div className="header-block">
-        <span>Quantity</span>
+        <span>Količina</span>
       </div>
       <div className="header-block">
-        <span>Price</span>
+        <span>Cena</span>
       </div>
       <div className="header-block">
-        <span>Remove</span>
+        <span>Ukloni</span>
       </div>
     </div>
     {cartItems.map((cartItem) => (
       <CheckoutItem key={cartItem.id} cartItem={cartItem} />
     ))}
     <div className="total">
-      <span>TOTAL: ${total}</span>
+      <span>Ukupno: {total} dinara</span>
     </div>
   </div>
 );

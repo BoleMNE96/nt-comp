@@ -1,37 +1,36 @@
 const INITIAL_STATE = {
   sections: [
     {
-      title: "hats",
-      imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
+      title: "Mobilni telefoni",
+      imageUrl: process.env.PUBLIC_URL + "/mobile.jpg",
       id: 1,
-      linkUrl: "shop/hats"
+      linkUrl: "shop/mobilni"
     },
     {
-      title: "jackets",
-      imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
+      title: "Računari",
+      imageUrl: process.env.PUBLIC_URL + "/laptop.jpg",
       id: 2,
-      linkUrl: "shop/jackets"
+      linkUrl: "shop/racunari"
     },
     {
-      title: "sneakers",
-      imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
+      title: "Power Banks",
+      imageUrl: process.env.PUBLIC_URL + "/powerbank.jpg",
       id: 3,
-      linkUrl: "shop/sneakers"
+      linkUrl: "shop/powerbanks"
     },
     {
-      title: "zvucnici",
-      // imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
+      title: "Zvučnici",
       imageUrl: process.env.PUBLIC_URL + "/speaker.jpg",
       size: "large",
       id: 4,
       linkUrl: "shop/zvucnici"
     },
     {
-      title: "mens",
-      imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
+      title: "LED",
+      imageUrl: process.env.PUBLIC_URL + "/led.jpg",
       size: "large",
       id: 5,
-      linkUrl: "shop/mens"
+      linkUrl: "shop/led"
     }
   ]
 };

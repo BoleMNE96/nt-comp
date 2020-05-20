@@ -1,8 +1,8 @@
 const SHOP_DATA = {
-  hats: {
+  mobilni: {
     id: 1,
-    title: "Hats",
-    routeName: "hats",
+    title: "Mobilni telefoni",
+    routeName: "mobilni",
     items: [
       {
         id: 1,
@@ -60,10 +60,10 @@ const SHOP_DATA = {
       }
     ]
   },
-  sneakers: {
+  racunari: {
     id: 2,
-    title: "Sneakers",
-    routeName: "sneakers",
+    title: "Računari",
+    routeName: "racunari",
     items: [
       {
         id: 10,
@@ -115,10 +115,10 @@ const SHOP_DATA = {
       }
     ]
   },
-  jackets: {
+  powerbanks: {
     id: 3,
-    title: "Jackets",
-    routeName: "jackets",
+    title: "Power Banks",
+    routeName: "powerbanks",
     items: [
       {
         id: 18,
@@ -154,7 +154,7 @@ const SHOP_DATA = {
   },
   zvucnici: {
     id: 4,
-    title: "Zvucnici",
+    title: "Zvučnici",
     routeName: "zvucnici",
     items: [
       {
@@ -201,10 +201,10 @@ const SHOP_DATA = {
       }
     ]
   },
-  mens: {
+  led: {
     id: 5,
-    title: "Mens",
-    routeName: "mens",
+    title: "Led",
+    routeName: "led",
     items: [
       {
         id: 30,
